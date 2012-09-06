@@ -1,0 +1,9 @@
+Simple HTTPS server
+
+The server will serve static (compiled-in) content for any requested
+resource.
+
+Instructions
+
+go build
+./server -cert PATH/TO/CERT -key PATH/TO/KEY -listen localhost:8443

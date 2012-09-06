@@ -1,0 +1,8 @@
+SSLConn (1) examples
+
+There are two very primitive samples here:
+
+client - simple HTTPS client
+server - simple HTTPS server
+
+1. github.com/vadims/sslconn

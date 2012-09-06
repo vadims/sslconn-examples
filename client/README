@@ -1,0 +1,14 @@
+Simple HTTPS client
+
+The client will connect to the server and issue a GET request to the specified resource.
+It only handles responses with a Content-Length header.
+
+Instructions
+
+go build
+
+# Test with certificate verification disabled 
+./client -server localhost:8443 -resource /
+
+# Test with certificate verification enabled
+./client -server localhost:8443 -resource / -verify
